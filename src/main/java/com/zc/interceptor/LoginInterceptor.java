@@ -10,12 +10,14 @@ public class LoginInterceptor extends HandlerInterceptorAdapter { //登陆拦截
     public boolean preHandle(HttpServletRequest request,
                              HttpServletResponse response,
                              Object handler) throws Exception {
-
+        if(request.getServletPath().equals("/")){
+            response.sendRedirect("/");
+            return false;
+        }
         if (request.getSession().getAttribute("user") == null) {
             response.sendRedirect("/admin");
             return false;
         }
-
         return true;
     }
 }
