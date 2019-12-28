@@ -5177,3 +5177,297 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2019-12-28 17:12:11.351  INFO 9578 --- [http-nio-8080-exec-7] com.zc.aspect.logAspect                  : Result : index
 2019-12-28 17:12:13.672  INFO 9578 --- [http-nio-8080-exec-2] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/blog/1', ip='127.0.0.1', classMethod='com.zc.web.IndexController.blog', args=[]}
 2019-12-28 17:12:13.673  INFO 9578 --- [http-nio-8080-exec-2] com.zc.aspect.logAspect                  : Result : blog
+2019-12-28 17:16:33.260  INFO 9578 --- [Thread-16] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@28535a4e: startup date [Sat Dec 28 17:08:11 CST 2019]; root of context hierarchy
+2019-12-28 17:16:33.261  INFO 9578 --- [Thread-16] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-28 17:16:33.262  INFO 9578 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:05:50.438  INFO 10261 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on zhangchengdembp with PID 10261 (/Users/zhangcheng/IdeaProjects/blog/target/classes started by zhangcheng in /Users/zhangcheng/IdeaProjects/blog)
+2019-12-28 20:05:50.440 DEBUG 10261 --- [restartedMain] com.zc.BlogApplication                   : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2019-12-28 20:05:50.441  INFO 10261 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2019-12-28 20:05:50.578  INFO 10261 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39c1ad25: startup date [Sat Dec 28 20:05:50 CST 2019]; root of context hierarchy
+2019-12-28 20:05:52.199  INFO 10261 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 20:05:52.206  INFO 10261 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 20:05:52.207  INFO 10261 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-12-28 20:05:52.275  INFO 10261 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 20:05:52.275  INFO 10261 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1699 ms
+2019-12-28 20:05:52.399  INFO 10261 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-28 20:05:52.402  INFO 10261 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 20:05:52.402  INFO 10261 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 20:05:52.402  INFO 10261 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-28 20:05:52.402  INFO 10261 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 20:05:52.800  INFO 10261 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:05:52.815  INFO 10261 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 20:05:52.900  INFO 10261 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-28 20:05:52.901  INFO 10261 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 20:05:52.902  INFO 10261 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-12-28 20:05:52.980  INFO 10261 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-28 20:05:53.122  INFO 10261 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-28 20:05:53.498  INFO 10261 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-12-28 20:05:53.645  INFO 10261 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:05:53.933  INFO 10261 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-28 20:05:54.411  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39c1ad25: startup date [Sat Dec 28 20:05:50 CST 2019]; root of context hierarchy
+2019-12-28 20:05:54.469  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findAllUser],methods=[POST]}" onto public java.util.List<com.zc.po.User> com.zc.api.UserInfoService.findAllUser()
+2019-12-28 20:05:54.470  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findByUserName],methods=[POST]}" onto public com.zc.po.User com.zc.api.UserInfoService.findByUserName(java.lang.String)
+2019-12-28 20:05:54.472  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:05:54.472  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.zc.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2019-12-28 20:05:54.472  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.blog()
+2019-12-28 20:05:54.474  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.474  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:05:54.474  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.post(com.zc.po.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2019-12-28 20:05:54.474  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.input(org.springframework.ui.Model)
+2019-12-28 20:05:54.475  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:05:54.475  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:05:54.476  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.zc.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.476  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.loginPage()
+2019-12-28 20:05:54.476  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2019-12-28 20:05:54.477  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.478  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:05:54.478  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.post(com.zc.po.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.478  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.input(org.springframework.ui.Model)
+2019-12-28 20:05:54.478  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:05:54.478  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.editPost(com.zc.po.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.post(com.zc.po.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.input(org.springframework.ui.Model)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:05:54.481  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.editPost(com.zc.po.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:05:54.483  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 20:05:54.483  INFO 10261 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-28 20:05:54.518  INFO 10261 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:05:54.518  INFO 10261 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:05:54.531  INFO 10261 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2019-12-28 20:05:54.548  INFO 10261 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:05:55.088  INFO 10261 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-28 20:05:55.125  INFO 10261 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-28 20:05:55.177  INFO 10261 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-28 20:05:55.181  INFO 10261 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 5.084 seconds (JVM running for 5.691)
+2019-12-28 20:06:02.122  INFO 10261 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 20:06:02.122  INFO 10261 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-28 20:06:02.142  INFO 10261 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-12-28 20:06:06.310  INFO 10261 --- [http-nio-8080-exec-10] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:06:06.377  WARN 10261 --- [http-nio-8080-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:06:06.384  WARN 10261 --- [http-nio-8080-exec-10] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:06:06.388  INFO 10261 --- [http-nio-8080-exec-10] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:06:30.020  INFO 10261 --- [http-nio-8080-exec-6] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:06:30.032  INFO 10261 --- [http-nio-8080-exec-6] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:06:36.859  INFO 10261 --- [http-nio-8080-exec-9] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zc.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 背影, {}]}
+2019-12-28 20:06:36.867  INFO 10261 --- [http-nio-8080-exec-9] com.zc.aspect.logAspect                  : Result : search
+2019-12-28 20:07:43.626  INFO 10261 --- [Thread-19] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39c1ad25: startup date [Sat Dec 28 20:05:50 CST 2019]; root of context hierarchy
+2019-12-28 20:07:43.628  INFO 10261 --- [Thread-19] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-28 20:07:43.629  INFO 10261 --- [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:07:53.219  INFO 10289 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on zhangchengdembp with PID 10289 (/Users/zhangcheng/IdeaProjects/blog/target/classes started by zhangcheng in /Users/zhangcheng/IdeaProjects/blog)
+2019-12-28 20:07:53.219 DEBUG 10289 --- [restartedMain] com.zc.BlogApplication                   : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2019-12-28 20:07:53.219  INFO 10289 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2019-12-28 20:07:53.346  INFO 10289 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@430bd1b2: startup date [Sat Dec 28 20:07:53 CST 2019]; root of context hierarchy
+2019-12-28 20:07:54.422  INFO 10289 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 20:07:54.427  INFO 10289 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 20:07:54.428  INFO 10289 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-12-28 20:07:54.479  INFO 10289 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 20:07:54.479  INFO 10289 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1136 ms
+2019-12-28 20:07:54.593  INFO 10289 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-28 20:07:54.595  INFO 10289 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 20:07:54.596  INFO 10289 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 20:07:54.596  INFO 10289 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-28 20:07:54.596  INFO 10289 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 20:07:54.973  INFO 10289 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:07:54.980  INFO 10289 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 20:07:55.014  INFO 10289 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-28 20:07:55.015  INFO 10289 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 20:07:55.015  INFO 10289 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-12-28 20:07:55.086  INFO 10289 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-28 20:07:55.188  INFO 10289 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-28 20:07:55.468  INFO 10289 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-12-28 20:07:55.649  INFO 10289 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:07:55.887  INFO 10289 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-28 20:07:56.324  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@430bd1b2: startup date [Sat Dec 28 20:07:53 CST 2019]; root of context hierarchy
+2019-12-28 20:07:56.370  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findAllUser],methods=[POST]}" onto public java.util.List<com.zc.po.User> com.zc.api.UserInfoService.findAllUser()
+2019-12-28 20:07:56.371  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findByUserName],methods=[POST]}" onto public com.zc.po.User com.zc.api.UserInfoService.findByUserName(java.lang.String)
+2019-12-28 20:07:56.373  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:07:56.373  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.zc.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2019-12-28 20:07:56.374  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.blog()
+2019-12-28 20:07:56.375  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.375  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:07:56.376  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.post(com.zc.po.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2019-12-28 20:07:56.376  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:07:56.376  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:07:56.376  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.input(org.springframework.ui.Model)
+2019-12-28 20:07:56.377  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.zc.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.378  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.loginPage()
+2019-12-28 20:07:56.378  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2019-12-28 20:07:56.380  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.380  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.post(com.zc.po.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.380  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:07:56.380  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.editPost(com.zc.po.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.381  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:07:56.381  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.input(org.springframework.ui.Model)
+2019-12-28 20:07:56.383  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.383  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.post(com.zc.po.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.383  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:07:56.384  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.editPost(com.zc.po.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:07:56.384  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:07:56.384  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.input(org.springframework.ui.Model)
+2019-12-28 20:07:56.385  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 20:07:56.385  INFO 10289 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-28 20:07:56.429  INFO 10289 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:07:56.429  INFO 10289 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:07:56.441  INFO 10289 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2019-12-28 20:07:56.455  INFO 10289 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:07:56.870  INFO 10289 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-28 20:07:56.905  INFO 10289 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-28 20:07:56.941  INFO 10289 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-28 20:07:56.944  INFO 10289 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 3.911 seconds (JVM running for 4.358)
+2019-12-28 20:08:03.170  INFO 10289 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 20:08:03.170  INFO 10289 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-28 20:08:03.189  INFO 10289 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+2019-12-28 20:08:03.206 ERROR 10289 --- [http-nio-8080-exec-1] c.zc.handler.ControllerExceptionHandler  : Request URL : /search, Exception : {}
+
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:207) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:374) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:314) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:61) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:352) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1160) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:940) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901) ~[spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) [spring-webmvc-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) [tomcat-embed-websocket-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.11.RELEASE.jar:4.3.11.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.20.jar:8.5.20]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2019-12-28 20:08:03.208  WARN 10289 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved exception caused by Handler execution: org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported
+2019-12-28 20:08:05.619  INFO 10289 --- [http-nio-8080-exec-2] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:08:05.676  WARN 10289 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:08:05.682  WARN 10289 --- [http-nio-8080-exec-2] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:08:05.686  INFO 10289 --- [http-nio-8080-exec-2] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:08:23.708  INFO 10289 --- [http-nio-8080-exec-3] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:08:23.720  INFO 10289 --- [http-nio-8080-exec-3] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:08:28.799  INFO 10289 --- [http-nio-8080-exec-7] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zc.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 背影, {}]}
+2019-12-28 20:08:28.806  INFO 10289 --- [http-nio-8080-exec-7] com.zc.aspect.logAspect                  : Result : search
+2019-12-28 20:13:03.430  INFO 10289 --- [http-nio-8080-exec-9] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/blog/6', ip='127.0.0.1', classMethod='com.zc.web.IndexController.blog', args=[]}
+2019-12-28 20:13:03.430  INFO 10289 --- [http-nio-8080-exec-9] com.zc.aspect.logAspect                  : Result : blog
+2019-12-28 20:14:33.765  INFO 10289 --- [Thread-17] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@430bd1b2: startup date [Sat Dec 28 20:07:53 CST 2019]; root of context hierarchy
+2019-12-28 20:14:33.766  INFO 10289 --- [Thread-17] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2019-12-28 20:14:33.767  INFO 10289 --- [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:15:05.394  INFO 10318 --- [restartedMain] com.zc.BlogApplication                   : Starting BlogApplication on zhangchengdembp with PID 10318 (/Users/zhangcheng/IdeaProjects/blog/target/classes started by zhangcheng in /Users/zhangcheng/IdeaProjects/blog)
+2019-12-28 20:15:05.394 DEBUG 10318 --- [restartedMain] com.zc.BlogApplication                   : Running with Spring Boot v1.5.7.RELEASE, Spring v4.3.11.RELEASE
+2019-12-28 20:15:05.395  INFO 10318 --- [restartedMain] com.zc.BlogApplication                   : The following profiles are active: dev
+2019-12-28 20:15:05.540  INFO 10318 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c45c871: startup date [Sat Dec 28 20:15:05 CST 2019]; root of context hierarchy
+2019-12-28 20:15:06.527  INFO 10318 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-12-28 20:15:06.532  INFO 10318 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-28 20:15:06.532  INFO 10318 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.20
+2019-12-28 20:15:06.576  INFO 10318 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-28 20:15:06.576  INFO 10318 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1039 ms
+2019-12-28 20:15:06.677  INFO 10318 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-12-28 20:15:06.680  INFO 10318 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-12-28 20:15:06.680  INFO 10318 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-12-28 20:15:06.680  INFO 10318 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-12-28 20:15:06.680  INFO 10318 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-12-28 20:15:07.088  INFO 10318 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:15:07.095  INFO 10318 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-12-28 20:15:07.126  INFO 10318 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.0.12.Final}
+2019-12-28 20:15:07.127  INFO 10318 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-12-28 20:15:07.128  INFO 10318 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist
+2019-12-28 20:15:07.190  INFO 10318 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2019-12-28 20:15:07.302  INFO 10318 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-12-28 20:15:07.560  INFO 10318 --- [restartedMain] org.hibernate.tool.hbm2ddl.SchemaUpdate  : HHH000228: Running hbm2ddl schema update
+2019-12-28 20:15:07.697  INFO 10318 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-12-28 20:15:07.986  INFO 10318 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-12-28 20:15:08.455  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2c45c871: startup date [Sat Dec 28 20:15:05 CST 2019]; root of context hierarchy
+2019-12-28 20:15:08.512  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findAllUser],methods=[POST]}" onto public java.util.List<com.zc.po.User> com.zc.api.UserInfoService.findAllUser()
+2019-12-28 20:15:08.513  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/api/user/findByUserName],methods=[POST]}" onto public com.zc.po.User com.zc.api.UserInfoService.findByUserName(java.lang.String)
+2019-12-28 20:15:08.516  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.index(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:15:08.516  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.zc.web.IndexController.search(org.springframework.data.domain.Pageable,java.lang.String,org.springframework.ui.Model)
+2019-12-28 20:15:08.516  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/blog/{id}],methods=[GET]}" onto public java.lang.String com.zc.web.IndexController.blog()
+2019-12-28 20:15:08.518  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.518  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/search],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.search(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:15:08.518  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[POST]}" onto public java.lang.String com.zc.web.admin.BlogController.post(com.zc.po.Blog,org.springframework.web.servlet.mvc.support.RedirectAttributes,javax.servlet.http.HttpSession)
+2019-12-28 20:15:08.518  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.blogs(org.springframework.data.domain.Pageable,com.zc.vo.BlogQuery,org.springframework.ui.Model)
+2019-12-28 20:15:08.519  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:15:08.519  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/blogs/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.BlogController.input(org.springframework.ui.Model)
+2019-12-28 20:15:08.520  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/login],methods=[POST]}" onto public java.lang.String com.zc.web.admin.LoginController.login(java.lang.String,java.lang.String,javax.servlet.http.HttpSession,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.520  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.loginPage()
+2019-12-28 20:15:08.520  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/logout],methods=[GET]}" onto public java.lang.String com.zc.web.admin.LoginController.logout(javax.servlet.http.HttpSession)
+2019-12-28 20:15:08.522  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.522  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.post(com.zc.po.Tag,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.522  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.tags(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:15:08.522  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:15:08.522  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TagController.editPost(com.zc.po.Tag,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.523  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/tags/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TagController.input(org.springframework.ui.Model)
+2019-12-28 20:15:08.525  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/delete],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.delete(java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.526  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.post(com.zc.po.Type,org.springframework.validation.BindingResult,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.526  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.types(org.springframework.data.domain.Pageable,org.springframework.ui.Model)
+2019-12-28 20:15:08.526  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.editInput(java.lang.Long,org.springframework.ui.Model)
+2019-12-28 20:15:08.526  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/{id}],methods=[POST]}" onto public java.lang.String com.zc.web.admin.TypeController.editPost(com.zc.po.Type,org.springframework.validation.BindingResult,java.lang.Long,org.springframework.web.servlet.mvc.support.RedirectAttributes)
+2019-12-28 20:15:08.526  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/admin/types/input],methods=[GET]}" onto public java.lang.String com.zc.web.admin.TypeController.input(org.springframework.ui.Model)
+2019-12-28 20:15:08.528  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-12-28 20:15:08.528  INFO 10318 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-12-28 20:15:08.579  INFO 10318 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:15:08.580  INFO 10318 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:15:08.599  INFO 10318 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in controllerExceptionHandler
+2019-12-28 20:15:08.621  INFO 10318 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-12-28 20:15:09.119  INFO 10318 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-28 20:15:09.157  INFO 10318 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-12-28 20:15:09.195  INFO 10318 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-12-28 20:15:09.199  INFO 10318 --- [restartedMain] com.zc.BlogApplication                   : Started BlogApplication in 3.979 seconds (JVM running for 4.469)
+2019-12-28 20:15:27.000  INFO 10318 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-12-28 20:15:27.000  INFO 10318 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-12-28 20:15:27.023  INFO 10318 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2019-12-28 20:15:27.046  INFO 10318 --- [http-nio-8080-exec-1] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:15:27.110  WARN 10318 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:15:27.118  WARN 10318 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [null.size]; use collection function syntax instead [size(null)].
+2019-12-28 20:15:27.123  INFO 10318 --- [http-nio-8080-exec-1] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:16:00.610  INFO 10318 --- [http-nio-8080-exec-5] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:16:00.623  INFO 10318 --- [http-nio-8080-exec-5] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:16:49.473  INFO 10318 --- [http-nio-8080-exec-10] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.zc.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2019-12-28 20:16:49.486  INFO 10318 --- [http-nio-8080-exec-10] com.zc.aspect.logAspect                  : Result : index
+2019-12-28 20:17:02.806  INFO 10318 --- [http-nio-8080-exec-8] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zc.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 不负如来不负卿, {}]}
+2019-12-28 20:17:02.813  INFO 10318 --- [http-nio-8080-exec-8] com.zc.aspect.logAspect                  : Result : search
+2019-12-28 20:17:13.179  INFO 10318 --- [http-nio-8080-exec-6] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zc.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], beiyinhg, {}]}
+2019-12-28 20:17:13.181  INFO 10318 --- [http-nio-8080-exec-6] com.zc.aspect.logAspect                  : Result : search
+2019-12-28 20:17:20.297  INFO 10318 --- [http-nio-8080-exec-7] com.zc.aspect.logAspect                  : Request:RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.zc.web.IndexController.search', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 背影, {}]}
+2019-12-28 20:17:20.300  INFO 10318 --- [http-nio-8080-exec-7] com.zc.aspect.logAspect                  : Result : search
