@@ -4,6 +4,7 @@ import com.zc.NotFoundException;
 import com.zc.dao.BlogRepository;
 import com.zc.po.Blog;
 import com.zc.po.Type;
+import com.zc.util.MarkdownUtils;
 import com.zc.util.MyBeanUtils;
 import com.zc.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
@@ -35,6 +36,19 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public Blog getBlog(Long id) {
         return blogRepository.findOne(id);
+    }
+
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog blog = blogRepository.findOne(id);
+        if(blog == null){
+            throw new NotFoundException("博客不存在");
+        }
+        Blog b = new Blog();
+        BeanUtils.copyProperties(blog,b);
+        String content = b.getContent();
+        blog.setContent( MarkdownUtils.markdownToHtmlExtensions(content));
+        return b;
     }
 
     @Transactional
