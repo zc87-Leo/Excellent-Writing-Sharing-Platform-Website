@@ -51,21 +51,27 @@
 
                 <!--content-->
                 <div class="ui attached segment">
-                    <div class="ui padded vertical segment m-padded-tb-large"  th:each="blog : ${page.content}">
-                        <div class="ui middle aligned mobile reversed stackable grid" >
+                    <div class="ui padded vertical segment m-padded-tb-large" th:each="blog : ${page.content}">
+                        <div class="ui middle aligned mobile reversed stackable grid">
                             <div class="eleven wide column">
-                                <h3 class="ui header" th:text="${blog.title}"><a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank"  class="m-black">《不负如来不负卿》</a></h3>
+                                <h3 class="ui header" th:text="${blog.title}"><a href="#"
+                                                                                 th:href="@{/blog/{id}(id=${blog.id})}"
+                                                                                 target="_blank" class="m-black">《不负如来不负卿》</a>
+                                </h3>
                                 <p class="m-text" th:text="|${blog.description}......|">曾虑多情损梵行，入山又怕误倾城。</p>
-                              <!--/*--> <p class="m-text">世间安得双全法，不负如来不负卿。</p> <!--*/-->
+                                <!--/*--> <p class="m-text">世间安得双全法，不负如来不负卿。</p> <!--*/-->
                                 <div class="ui grid">
                                     <div class="eleven wide column">
                                         <div class="ui horizontal link list">
                                             <div class="item">
-                                                <img src="https://unsplash.it/100/100?image=1005" th:src="@{${blog.user.avatar}}" alt=""  class="ui avatar image">
-                                                <div class="content"><a href="#" class="header" th:text="${blog.user.nickname}">仓央嘉措</a></div>
+                                                <img src="https://unsplash.it/100/100?image=1005"
+                                                     th:src="@{${blog.user.avatar}}" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header"
+                                                                        th:text="${blog.user.nickname}">仓央嘉措</a></div>
                                             </div>
                                             <div class="item">
-                                                <i class="calendar icon"></i> <span th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2019-10-16</span>
+                                                <i class="calendar icon"></i> <span
+                                                    th:text="${#dates.format(blog.updateTime,'yyyy-MM-dd')}">2019-10-16</span>
                                             </div>
                                             <div class="item">
                                                 <i class="eye icon"></i> <span th:text="${blog.views}">807</span>
@@ -75,13 +81,15 @@
                                     </div>
                                     <div class="righe aligned five wide column">
                                         <a href="#" target="_blank"
-                                           class="ui teal basic label m-padded-mini m-text-thin" th:text="${blog.type.name}">认知升级</a>
+                                           class="ui teal basic label m-padded-mini m-text-thin"
+                                           th:text="${blog.type.name}">认知升级</a>
                                     </div>
                                 </div>
                             </div>
                             <div class=" five wide column">
                                 <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank">
-                                    <img src="https://unsplash.it/800/450?image=1000" th:src="@{${blog.firstPicture}}" alt="" class="ui rounded image">
+                                    <img src="https://unsplash.it/800/450?image=1000" th:src="@{${blog.firstPicture}}"
+                                         alt="" class="ui rounded image">
                                 </a>
                             </div>
                         </div>
@@ -207,10 +215,12 @@
                 <div class="ui bottom attached segment" th:if="${page.totalPages}>1">
                     <div class="ui middle aligned two column grid">
                         <div class="column">
-                            <a href="#" th:href="@{/(page=${page.number}-1)}" th:unless="${page.first}" class="ui mini teal basic button"> 上一页 </a>
+                            <a href="#" th:href="@{/(page=${page.number}-1)}" th:unless="${page.first}"
+                               class="ui mini teal basic button"> 上一页 </a>
                         </div>
                         <div class="right aligned column">
-                            <a href="#" th:href="@{/(page=${page.number}+1)}" th:unless="${page.last}" class="ui mini teal basic button"> 下一页 </a>
+                            <a href="#" th:href="@{/(page=${page.number}+1)}" th:unless="${page.last}"
+                               class="ui mini teal basic button"> 下一页 </a>
                         </div>
                     </div>
                 </div>
@@ -233,10 +243,12 @@
                         </div>
                     </div>
                     <div class="ui teal segment">
-                        <div class="ui fluid vertical menu" >
+                        <div class="ui fluid vertical menu">
                             <a href="#" class="item" th:each="type : ${types}">
                                 <span th:text="${type.name}">学习日志</span>
-                                <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">13</div>
+                                <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.blogs)}">
+                                    13
+                                </div>
                             </a>
                             <!--/*-->
                             <a href="#" class="item">
@@ -276,7 +288,8 @@
                         </div>
                     </div>
                     <div class="ui teal segment">
-                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny" th:each="tag : ${tags}">
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny"
+                           th:each="tag : ${tags}">
                             <span th:text="${tag.name}">唐诗</span>
                             <div class="detail" th:text="${#arrays.length(tag.blogs)}">123</div>
                         </a>
@@ -296,7 +309,8 @@
                         <i class="red bookmark icon"></i>最新推荐
                     </div>
                     <div class="ui segment" th:each="blog : ${recommendBlogs}">
-                        <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-text-thin" th:text="${blog.title}">用户故事</a>
+                        <a href="#" th:href="@{/blog/{id}(id=${blog.id})}" target="_blank" class="m-black m-text-thin"
+                           th:text="${blog.title}">用户故事</a>
                     </div>
                     <!--/*-->
                     <div class="ui segment">
@@ -317,7 +331,7 @@
 
                 <h4 class="ui horizontal divider header">扫码关注</h4>
                 <div class="ui centered card " style="width: 11em">
-                    <img src="../static/images/abc.jpg"  th:src="@{/images/abc.jpg}" alt="" class="ui rounded image">
+                    <img src="../static/images/abc.jpg" th:src="@{/images/abc.jpg}" alt="" class="ui rounded image">
                 </div>
             </div>
         </div>
