@@ -23,22 +23,22 @@ The application has a user-friendly interface which is based on **Spring Boot** 
 ![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/commentReward.png)
 
 ## Type List Page
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/types.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/types.png)
 
 ## Admin Home Page
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/admin.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admin.png)
 
 ## Admin Articles
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/adminblog1.png)
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/adminblog2.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/adminblog1.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/adminblog2.png)
 
 ## Admin Types
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/admintype1.png)
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/admintype2.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admintype1.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admintype2.png)
 
 ## Admin Tags
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/admintag1.png)
-![image](https://github.com/zc87-Leo/StarParking-Web-App/blob/master/admintag1.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admintag1.png)
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admintag2.png)
 
 
 
