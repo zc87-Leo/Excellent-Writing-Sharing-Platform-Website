@@ -25,6 +25,9 @@ The application has a user-friendly interface which is based on **Spring Boot** 
 ## Type List Page
 ![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/types.png)
 
+## Tag List Page
+![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/tags.png)
+
 ## Admin Home Page
 ![image](https://github.com/zc87-Leo/Excellent_Writing_Sharing_Platform_Web_App/blob/master/images/admin.png)
 
