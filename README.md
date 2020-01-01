@@ -1,6 +1,6 @@
 # Excellent-Writing-Sharing-Platform-Website
 
-I love to read good articles, and I am willing to share and communicate with others,。
+I love to read good articles, and I am willing to share and communicate with others.
 
 so I developed an application where writings’ pictures, contents, tags, types and comments can be added, deleted, modified and searched between the website and the background synchronously to facilitate everyone to share and discuss good articles! 
 
